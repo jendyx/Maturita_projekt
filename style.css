@@ -70,3 +70,13 @@ nav ul li a:hover {
 .movie-card img {
     width: 100%
 }
+
+#tvshows-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.tvshow-card img {
+    width: 100%
+}
